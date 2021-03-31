@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; ;
+}
+
+<br />
+<p>
+    <b>Necessary Nuget Packages</b>
+    <ul>
+        <li>Serilog.AspNetCore</li>
+        <li>Serilog.Sinks.Graylog</li>
+    </ul>
+</p>
+<br />
+<p>
+    <b>GrayLog Setup on virtualbox.org</b>
+    <ul>
+        <li>https://www.virtualbox.org/wiki/Downloads</li>
+        <li>https://docs.graylog.org/en/4.0/pages/installation/virtual_machine_appliances.html</li>
+    </ul>
+</p>
+<br />
+<p>
+    <b>appsettings.json</b><br />
+    <code>
+        "Serilog": {<br />
+        "Using": [ "Serilog.Sinks.Graylog" ],<br />
+        "MinimumLevel": "Information",<br />
+        "WriteTo": [<br />
+        {<br />
+        "Name": "Graylog",<br />
+        "Args": {<br />
+        "hostnameOrAddress": "127.0.0.1",<br />
+        "port": "12201",<br />
+        "transportType": "Udp"<br />
+        }<br />
+        }<br />
+        ],<br />
+        "Properties": {<br />
+        "Application": "Centralized logging application"<br />
+        }<br />
+        },<br />
+        "AllowedHosts": "*"<br />
+        }<br />
+    </code>
+</p>
+<br />
+<p>
+    <b>GrayLog Configuration</b>
+    <br />
+    <img src="graylog.png"/>
+</p>
