@@ -3644,11 +3644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilyas.varol\\source\\repos\\LearningSeriLog\\LearningSeriLog.csproj",
+      "projectUniqueName": "C:\\Users\\ilyas.varol\\Desktop\\My Repos\\LearningSeriLog\\LearningSeriLog.csproj",
       "projectName": "LearningSeriLog",
-      "projectPath": "C:\\Users\\ilyas.varol\\source\\repos\\LearningSeriLog\\LearningSeriLog.csproj",
+      "projectPath": "C:\\Users\\ilyas.varol\\Desktop\\My Repos\\LearningSeriLog\\LearningSeriLog.csproj",
       "packagesPath": "C:\\Users\\ilyas.varol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilyas.varol\\source\\repos\\LearningSeriLog\\obj\\",
+      "outputPath": "C:\\Users\\ilyas.varol\\Desktop\\My Repos\\LearningSeriLog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ilyas.varol\\AppData\\Roaming\\NuGet\\NuGet.Config",

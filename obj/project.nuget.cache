@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uPMyIRrDvPjksqb5gwc+YYAR6ps1cj44Fxf3seI+1EC6cK1yorM8H2J5zOojL45ieB2eZ+Lbp408zt9dN43HRQ==",
+  "dgSpecHash": "JnFnhQCU/6BmDqAXHQ4wPWRk8+dtfCvWjRwehrfF1E7o6SYry+2cQEanw1zKUFz5Vw1D8UNjY8vdXMhNMljoEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ilyas.varol\\source\\repos\\LearningSeriLog\\LearningSeriLog.csproj",
+  "projectFilePath": "C:\\Users\\ilyas.varol\\Desktop\\My Repos\\LearningSeriLog\\LearningSeriLog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ilyas.varol\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
     "C:\\Users\\ilyas.varol\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.0\\microsoft.extensions.configuration.2.0.0.nupkg.sha512",

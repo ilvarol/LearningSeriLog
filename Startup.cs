@@ -24,6 +24,13 @@ namespace LearningSeriLog
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                //Accessing the site using HTTPS at least once is mandatory to make this work
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
 
             //Step 2: Configure ASP.NET
             //UseDefaultFiles() should always be before UseStaticFiles().
